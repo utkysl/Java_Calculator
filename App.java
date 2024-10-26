@@ -32,7 +32,7 @@ public class App {
                 } else {
                     System.out.println("Invalid operation. Please enter one of (+, -, *, /) ");
                 }
-            }   double result;
+            }   double result = 0;
             switch (operation) {
                 case '+':
                     result = num1 + num2;
